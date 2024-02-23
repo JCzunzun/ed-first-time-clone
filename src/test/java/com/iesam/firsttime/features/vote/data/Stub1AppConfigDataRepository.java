@@ -7,7 +7,7 @@ public class Stub1AppConfigDataRepository implements AppConfigRepository {
 
     @Override
     public AppConfig getAppConfig() {
-        return null;
+        return new AppConfig(5);
     }
 
     @Override

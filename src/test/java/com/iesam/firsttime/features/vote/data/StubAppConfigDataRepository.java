@@ -6,7 +6,6 @@ import com.iesam.firsttime.features.appconfig.domain.AppConfigRepository;
 public class StubAppConfigDataRepository implements AppConfigRepository {
     @Override
     public AppConfig getAppConfig() {
-
         return null;
     }
 
